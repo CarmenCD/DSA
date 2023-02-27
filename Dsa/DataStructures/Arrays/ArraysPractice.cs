@@ -60,10 +60,6 @@
         /// <param name="arr"></param>
         public void DuplicateZeros(int[] arr)
         {
-            //new int[] { 1, 0, 2, 3, 0, 4, 5, 0 }, new int[] { 1, 0, 0, 2, 3, 0, 0, 4 }
-
-            // 3 0
-            // last element // length  = 8
             var countZero = 0;
             var arrLength = arr.Length - 1;
 
@@ -73,18 +69,15 @@
                     countZero++;
             }
             
-            while (arrLength > 0 && countZero > 0) //t O(n)
+            while (arrLength > 0 && countZero > 0)
             {
-                // 1 0 2 3 0 4 0 0
                 if (arrLength + countZero <= arr.Length - 1)
                     arr[arrLength + countZero] = arr[arrLength];
 
-                // 1 0 2 3 0 4 0 4
                 if (arr[arrLength] == 0)
                     countZero--;
 
                 arr[arrLength] = 0;
-                // 1 0 2 3 0 0 0 4
                 arrLength--;
             }
         }
