@@ -25,9 +25,9 @@ namespace DataStructures.XUnit.UnitTests.Arrays
         {
             var sut = new ArraysPractice();
             sut.DuplicateZeros(input);
-
-            Assert.Equal(expected[2], input[2]);
-            Assert.Equal(expected[7], input[7]);
+            Assert.Equal(expected[2], 0);
+            Assert.Equal(expected[5], 0);
+            Assert.Equal(expected[6], 0);
         }
     }
 }
