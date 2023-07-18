@@ -22,11 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Arrays\" />
+    <Folder Include="Practice\Arrays\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Dsa\DataStructures\DataStructures.csproj" />
+    <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
   </ItemGroup>
 
 </Project>

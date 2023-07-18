@@ -1,4 +1,4 @@
-﻿namespace DataStructures.Arrays
+﻿namespace DataStructures.Practice.Arrays
 {
     public class ArraysPractice
     {
@@ -68,7 +68,7 @@
                 if (arr[i] == 0)
                     countZero++;
             }
-            
+
             while (arrLength > 0 && countZero > 0)
             {
                 if (arrLength + countZero <= arr.Length - 1)

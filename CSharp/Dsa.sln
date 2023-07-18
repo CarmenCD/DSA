@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{EC6CE1A9-B530-4C5C-B6B2-242D5A3DE350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.XUnit.UnitTests", "..\DataStructures.XUnit.UnitTests\DataStructures.XUnit.UnitTests.csproj", "{17121BA6-F1D3-4AAE-B26C-3B04804A3D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.XUnit.UnitTests", "DataStructures.XUnit.UnitTests\DataStructures.XUnit.UnitTests.csproj", "{65ECA236-87F6-4189-80F5-5FF092C3E887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EC6CE1A9-B530-4C5C-B6B2-242D5A3DE350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC6CE1A9-B530-4C5C-B6B2-242D5A3DE350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC6CE1A9-B530-4C5C-B6B2-242D5A3DE350}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17121BA6-F1D3-4AAE-B26C-3B04804A3D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17121BA6-F1D3-4AAE-B26C-3B04804A3D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17121BA6-F1D3-4AAE-B26C-3B04804A3D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17121BA6-F1D3-4AAE-B26C-3B04804A3D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ECA236-87F6-4189-80F5-5FF092C3E887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ECA236-87F6-4189-80F5-5FF092C3E887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ECA236-87F6-4189-80F5-5FF092C3E887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ECA236-87F6-4189-80F5-5FF092C3E887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
