@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using DataStructures.Arrays;
+﻿using DataStructures.Practice.Arrays;
 
-namespace DataStructures.XUnit.UnitTests.Arrays
+namespace DataStructures.XUnit.UnitTests.Practice.Arrays
 {
     public class ArraysPracticeTest
     {
