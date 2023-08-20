@@ -22,7 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7A7E43
 	ProjectSection(SolutionItems) = preProject
 		SystemDesign\LLD\Images\DuckSimulationInitial.png = SystemDesign\LLD\Images\DuckSimulationInitial.png
 		SystemDesign\LLD\Images\DuckSimulationSol2.png = SystemDesign\LLD\Images\DuckSimulationSol2.png
+		SystemDesign\LLD\Images\DuckSimulationStrategy.png = SystemDesign\LLD\Images\DuckSimulationStrategy.png
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientBuilder", "SystemDesign\LLD\ClientBuilder\ClientBuilder.csproj", "{D25F7FA7-F530-4FC0-8353-F9874394D1DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +49,10 @@ Global
 		{E66ED8FB-C748-42F3-8291-07EA18185DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E66ED8FB-C748-42F3-8291-07EA18185DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E66ED8FB-C748-42F3-8291-07EA18185DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25F7FA7-F530-4FC0-8353-F9874394D1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25F7FA7-F530-4FC0-8353-F9874394D1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25F7FA7-F530-4FC0-8353-F9874394D1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25F7FA7-F530-4FC0-8353-F9874394D1DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +62,7 @@ Global
 		{060FA1C7-E712-462E-8004-511D4D0E5A4A} = {977699B8-EE33-4DDB-ADE1-66529123768E}
 		{E66ED8FB-C748-42F3-8291-07EA18185DCC} = {977699B8-EE33-4DDB-ADE1-66529123768E}
 		{7A7E439D-7701-4F11-AAC2-DE7FF6B9C1A8} = {977699B8-EE33-4DDB-ADE1-66529123768E}
+		{D25F7FA7-F530-4FC0-8353-F9874394D1DA} = {977699B8-EE33-4DDB-ADE1-66529123768E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2427C0FE-6A9D-4E74-B647-C44012FA506A}
