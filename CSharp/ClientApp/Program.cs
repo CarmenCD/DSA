@@ -85,3 +85,12 @@ duck.Display();
 duck.Swim();
 duck.PerformQuack();
 duck.PerformFly();
+
+
+Console.WriteLine("***********************************************************");
+Console.WriteLine("* New Requirements                                        *");
+Console.WriteLine("*    1. A new type of Quack must be implemented.          * \n" +
+                  "*    2. A new type of duck must be implemented            * \n" +
+                  "*    this will not touch the current implementation       * \n" +
+                  "Only in case of new Interfaces (IMigrate) the Duck must be changed");
+Console.WriteLine("***********************************************************");

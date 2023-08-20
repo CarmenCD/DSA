@@ -2,6 +2,7 @@
 
 ## Behavioral
 ### Strategy
+#### <b style="color:orange">Definition: </b>Family of alghorithms which encapsulates each behavior and make them interchangeble
 Problem statement: Implement Duck Simulation game
 
 #### 1. Initial design / implementation:
@@ -30,5 +31,5 @@ There are n types of duck and each type of duck is a duck ==>
 <b style="color:#458fff">New design limitations</b>
 ![Solution 2: design and limitations](./Images/DuckSimulationSol2.png "Simple design")
 #### 3. Strategy pattern implementation HAS-A (Composition) vs Is-A (Inheritance)
-
+![Solution 2: design and limitations](./Images/DuckSimulationStrategy.png "Simple design")
 ## Creational
