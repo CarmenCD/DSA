@@ -32,4 +32,6 @@ There are n types of duck and each type of duck is a duck ==>
 ![Solution 2: design and limitations](./Images/DuckSimulationSol2.png "Simple design")
 #### 3. Strategy pattern implementation HAS-A (Composition) vs Is-A (Inheritance)
 ![Solution 2: design and limitations](./Images/DuckSimulationStrategy.png "Simple design")
+
 ## Creational
+### The Factory pattern
