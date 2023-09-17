@@ -94,3 +94,20 @@ Console.WriteLine("*    1. A new type of Quack must be implemented.          * \
                   "*    this will not touch the current implementation       * \n" +
                   "Only in case of new Interfaces (IMigrate) the Duck must be changed");
 Console.WriteLine("***********************************************************");
+
+Console.WriteLine("\n* New Quack * ");
+// New Quack
+IFlyable flyCurrent = new FlyWithWings();
+IQuack quackNew = new QuackNew();
+Strategy.Duck duckMallard = new Strategy.Concrete.MallardDuck(flyCurrent, quackNew);
+duckMallard.Display();
+duckMallard.Swim();
+duckMallard.PerformQuack();
+duckMallard.PerformFly();
+
+Console.WriteLine("\n* New duck *");
+Strategy.Duck woodenDuck = new Strategy.Concrete.WoodenDuck(flyCurrent, quackNew);
+woodenDuck.Display();
+woodenDuck.Swim();
+woodenDuck.PerformQuack();
+woodenDuck.PerformFly();
