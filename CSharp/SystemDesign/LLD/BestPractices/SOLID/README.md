@@ -1,4 +1,4 @@
-# SOLID Principles
+# SOLID Design Principles
 ### [S - Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle)
 
 ### [O - Open / Close Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
