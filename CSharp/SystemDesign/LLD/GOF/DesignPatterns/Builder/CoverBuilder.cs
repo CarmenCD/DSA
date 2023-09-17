@@ -4,7 +4,7 @@ namespace DesignPatterns.Builder
 {
     public class CoverBuilder
     {
-        private Book _book;
+        private readonly Book _book;
 
         public CoverBuilder(Book book)
         {
