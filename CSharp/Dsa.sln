@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "SystemDes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientBuilder", "SystemDesign\LLD\GOF\ClientBuilder\ClientBuilder.csproj", "{38DECF36-F44F-4CD3-A277-75A1E6053DF3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "SystemDesign\LLD\GOF\ClientApp\ClientApp.csproj", "{20DE4142-A6FD-49E9-896B-F92B4435EA58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{38DECF36-F44F-4CD3-A277-75A1E6053DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38DECF36-F44F-4CD3-A277-75A1E6053DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38DECF36-F44F-4CD3-A277-75A1E6053DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DE4142-A6FD-49E9-896B-F92B4435EA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DE4142-A6FD-49E9-896B-F92B4435EA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DE4142-A6FD-49E9-896B-F92B4435EA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DE4142-A6FD-49E9-896B-F92B4435EA58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{B93F88FC-E613-4E9A-83A6-C1D97C540468} = {977699B8-EE33-4DDB-ADE1-66529123768E}
 		{EED8094D-DB83-4932-B684-4119DC9F167E} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{38DECF36-F44F-4CD3-A277-75A1E6053DF3} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
+		{20DE4142-A6FD-49E9-896B-F92B4435EA58} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2427C0FE-6A9D-4E74-B647-C44012FA506A}
