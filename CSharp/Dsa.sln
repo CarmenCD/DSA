@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "SystemDesign\L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestPractices", "SystemDesign\LLD\BestPractices\BestPractices.csproj", "{59FDA368-E75A-420F-B76F-7CC9048222A1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientFactory", "..\..\..\CCharp\DSA\CSharp\SystemDesign\LLD\GOF\ClientFactory\ClientFactory.csproj", "{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{38DECF36-F44F-4CD3-A277-75A1E6053DF3} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{20DE4142-A6FD-49E9-896B-F92B4435EA58} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{59FDA368-E75A-420F-B76F-7CC9048222A1} = {977699B8-EE33-4DDB-ADE1-66529123768E}
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2427C0FE-6A9D-4E74-B647-C44012FA506A}
