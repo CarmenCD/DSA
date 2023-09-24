@@ -1,5 +1,6 @@
 ﻿using Splitwise.Client.Commands;
 using SplitWiseClient.Controllers;
+using SplitWiseClient.DataLayer;
 using SplitWiseClient.Services;
 
 namespace SplitWiseClient.Commands
@@ -8,13 +9,15 @@ namespace SplitWiseClient.Commands
     {
         public List<ICommand> Commands;
 
-        public CommandRegistry()
+        private readonly IUserOperation _operation;
+
+        public CommandRegistry(IUserOperation operation)
         {
+            _operation = operation;
             Commands = new List<ICommand>
             {
-                new RegisterUserCommand(new UserController(new UserService()))
+                new RegisterUserCommand(new UserController(new UserService(_operation)))
             };
         }
-        
     }
 }

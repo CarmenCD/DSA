@@ -38,7 +38,8 @@ namespace SplitWiseClient.Controllers
                 response.Status = "Error";
                 response.Message = e.Message;
             }
-            
+
+            return response;
         }
     }
 }

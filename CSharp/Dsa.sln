@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "SystemDesign\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitWiseClient", "SystemDesign\LLD\PracticeLLD\SplitwhiseClient\SplitWiseClient.csproj", "{F39D02AA-3324-471C-9968-9E97F390F471}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLockExample", "SystemDesign\LLD\PracticeLLD\DbLockExample\DbLockExample.csproj", "{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{F39D02AA-3324-471C-9968-9E97F390F471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F39D02AA-3324-471C-9968-9E97F390F471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F39D02AA-3324-471C-9968-9E97F390F471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{20DE4142-A6FD-49E9-896B-F92B4435EA58} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{6DACA82F-B02B-4989-B13E-1FF7D0AC9E9B} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 		{F39D02AA-3324-471C-9968-9E97F390F471} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
+		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2427C0FE-6A9D-4E74-B647-C44012FA506A}

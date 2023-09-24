@@ -1,11 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Splitwise.Client.Commands;
 using SplitWiseClient.Commands;
+using SplitWiseClient.DataLayer;
 
 Console.WriteLine("Hello, World!");
 // register commands
-var registry = new CommandRegistry();
+IUserOperation userOperationDb = new UserOperations();
+var registry = new CommandRegistry(userOperationDb);
 
 while (true)
 {
