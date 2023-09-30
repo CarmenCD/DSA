@@ -11,11 +11,12 @@ namespace DesignPatterns.Factory.SimpleFactory
         public Pizza CreatePizza(string type)
         {
             if (string.Equals(type, "cheese"))
+            {
                 Console.WriteLine("Cheese Pizza is created");
                 return new CheesePizza();
+            }
 
             return new Pizza();
-
         }
 
     }
