@@ -27,5 +27,37 @@ namespace DataStructures.XUnit.UnitTests.Practice.Arrays
             Assert.Equal(expected[2], input[2]);
             Assert.Equal(expected[7], input[7]);
         }
+
+        [Fact]
+        public void TestLoops()
+        {
+            var n = 100;
+            
+            //var i = 1;
+            /*while (i < n)
+            {
+                var x = i;
+                var count = 0;
+
+                while (x-- > 0)
+                {
+                    count++;
+                    //some code
+                    
+                }
+
+                i++;
+            }*/
+
+            for (var i = 0; i <= n; i++)
+            {
+                var count = 0;
+                for (var j = i; j <= n && j > i; j++)
+                {
+                    count++;
+                }
+            }
+
+        }
     }
 }

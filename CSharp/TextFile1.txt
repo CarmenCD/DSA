@@ -1,0 +1,8 @@
+entities
+- Person details
+= statistics
+
+structure obj 
+User (Personal details, Statistics), 
+Statistics - Score, Rank, 
+Personal Details - 

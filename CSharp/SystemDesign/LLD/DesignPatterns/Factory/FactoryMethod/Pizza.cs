@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Factory.SimpleFactory
+namespace DesignPatterns.Factory.FactoryMethod
 {
-    public class CheesePizza : Pizza
+    public abstract class Pizza
     {
+
     }
 }
