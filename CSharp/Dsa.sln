@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitWiseClient", "SystemDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLockExample", "SystemDesign\LLD\PracticeLLD\DbLockExample\DbLockExample.csproj", "{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestPractices", "SystemDesign\LLD\BestPractices\BestPractices.csproj", "{59FDA368-E75A-420F-B76F-7CC9048222A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{6DACA82F-B02B-4989-B13E-1FF7D0AC9E9B} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 		{F39D02AA-3324-471C-9968-9E97F390F471} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 		{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
+		{59FDA368-E75A-420F-B76F-7CC9048222A1} = {977699B8-EE33-4DDB-ADE1-66529123768E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2427C0FE-6A9D-4E74-B647-C44012FA506A}
