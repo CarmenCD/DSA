@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory.FactoryMethod
 {
-    public abstract class Pizza
+    public class Pizza
     {
         public string? Name { get; protected set; }
         public string? Dough { get; protected set; }
