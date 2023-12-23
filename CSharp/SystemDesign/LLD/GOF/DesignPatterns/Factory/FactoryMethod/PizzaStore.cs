@@ -8,14 +8,15 @@ namespace DesignPatterns.Factory.FactoryMethod
 {
     public abstract class PizzaStore
     {
-        
+        // operation method
         public Pizza  OrderPizza(string type)
         {
             Pizza p = CreatePizza(type);
-            //p.prepare();
-            //base.bake();
-            //p.cut();
-            //p.box();
+            p.Prepare();
+            p.Bake();
+            p.Cut();
+            p.Box();
+
             return p;
         }
 

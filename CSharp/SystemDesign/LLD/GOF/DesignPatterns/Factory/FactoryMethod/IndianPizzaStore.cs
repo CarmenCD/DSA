@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Factory.FactoryMethod
 {
-    public class NYPizzaStore : PizzaStore
+    public class IndianPizzaStore : PizzaStore
     {
         protected override Pizza CreatePizza(string type)
         {
