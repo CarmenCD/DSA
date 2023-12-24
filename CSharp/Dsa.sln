@@ -13,9 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LLD", "LLD", "{977699B8-EE3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7A7E439D-7701-4F11-AAC2-DE7FF6B9C1A8}"
 	ProjectSection(SolutionItems) = preProject
+		SystemDesign\LLD\GOF\Images\AbstractFactory.png = SystemDesign\LLD\GOF\Images\AbstractFactory.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationInitial.png = SystemDesign\LLD\GOF\Images\DuckSimulationInitial.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationSol2.png = SystemDesign\LLD\GOF\Images\DuckSimulationSol2.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationStrategy.png = SystemDesign\LLD\GOF\Images\DuckSimulationStrategy.png
+		SystemDesign\LLD\GOF\Images\FactoryMethod.png = SystemDesign\LLD\GOF\Images\FactoryMethod.png
+		SystemDesign\LLD\GOF\Images\SimpleFactory.png = SystemDesign\LLD\GOF\Images\SimpleFactory.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeLLD", "PracticeLLD", "{767C7E71-AA3F-4C2F-B5A9-17F12356035E}"
@@ -32,6 +35,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "SystemDesign\LLD\GOF\ClientApp\ClientApp.csproj", "{20DE4142-A6FD-49E9-896B-F92B4435EA58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestPractices", "SystemDesign\LLD\BestPractices\BestPractices.csproj", "{59FDA368-E75A-420F-B76F-7CC9048222A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientFactory", "SystemDesign\LLD\GOF\ClientFactory\ClientFactory.csproj", "{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking", "SystemDesign\LLD\PracticeLLD\Booking\Booking.csproj", "{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1}"
 EndProject
@@ -69,6 +74,10 @@ Global
 		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FDA368-E75A-420F-B76F-7CC9048222A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -94,6 +103,7 @@ Global
 		{38DECF36-F44F-4CD3-A277-75A1E6053DF3} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{20DE4142-A6FD-49E9-896B-F92B4435EA58} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{59FDA368-E75A-420F-B76F-7CC9048222A1} = {977699B8-EE33-4DDB-ADE1-66529123768E}
+		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 		{F7FF6167-2C79-4870-90DD-E125E7677A0B} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 		{7546D917-AA61-4925-B5BB-43208C73E7E0} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
