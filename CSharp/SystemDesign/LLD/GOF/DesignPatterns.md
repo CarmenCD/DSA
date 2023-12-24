@@ -36,12 +36,32 @@ $\mathsf{\color{#458fff}Initial \space design \space limitations}$
 
 $\mathsf{\color{#458fff}New \space design \space limitations}$
 
-![Solution 2: design and limitations](./Images/DuckSimulationSol2.png "Simple design")
+![Solution 2: design and limitations](./Images/DuckSimulationSol2.png "Avoiding SOLID violation")
 
 ### 3. Strategy pattern implementation HAS-A (Composition) vs Is-A (Inheritance)
 
-![Solution 2: design and limitations](./Images/DuckSimulationStrategy.png "Simple design")
+![Final solution](./Images/DuckSimulationStrategy.png "Strategy Pattern")
 
 ## Creational
 
 ### The Factory pattern
+
+### 1. Simple Factory - Not a pattern
+
+Initially Pizza class contained Create method responsible to pizza creation (multiple if / else). Pulling out the create method in PizzaFactory class it enable multiple clients to have access to the PizzaFactory
+
+![Simple Factory](./Images/SimpleFactory.png "Simple Factory")
+
+### 2. Factory Method:
+
+$\mathsf{\color{orange}Definition \space \color{orange}1: \space}$ Encapsusulates object creation by letting the subclasses to decide what object
+
+$\mathsf{\color{orange}Definition \space \color{orange}2: \space}$ The factory method pattern defines an interface (abstract method) for creating an object but let the subclasses to decide which class to instantiate
+
+![Factory Method](./Images/FactoryMethod.png "FactoryMethod")
+
+### 3. Abstract Factory:
+
+$\mathsf{\color{orange}Definition: \space}$ Provide an interface for creaating families of related objects without specifying their concrete class
+
+![Abstract Factory](./Images/AbstractFactory.png "Abstract Factory")

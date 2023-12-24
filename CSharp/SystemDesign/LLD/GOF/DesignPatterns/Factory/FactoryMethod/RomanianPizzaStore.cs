@@ -16,11 +16,11 @@ namespace DesignPatterns.Factory.FactoryMethod
 
             if (string.Equals(type, "cheese"))
             {
-                pizza = new CheesePizza();
+                pizza = new RomanianCheesePizza();
             }
             else if (string.Equals(type, "veggie"))
             {
-                pizza = new VeggiePizza();
+                pizza = new RomanianVeggiePizza();
             }
             else
             {

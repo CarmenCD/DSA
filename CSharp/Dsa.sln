@@ -13,9 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LLD", "LLD", "{977699B8-EE3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7A7E439D-7701-4F11-AAC2-DE7FF6B9C1A8}"
 	ProjectSection(SolutionItems) = preProject
+		SystemDesign\LLD\GOF\Images\AbstractFactory.png = SystemDesign\LLD\GOF\Images\AbstractFactory.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationInitial.png = SystemDesign\LLD\GOF\Images\DuckSimulationInitial.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationSol2.png = SystemDesign\LLD\GOF\Images\DuckSimulationSol2.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationStrategy.png = SystemDesign\LLD\GOF\Images\DuckSimulationStrategy.png
+		SystemDesign\LLD\GOF\Images\SimpleFactory.png = SystemDesign\LLD\GOF\Images\SimpleFactory.png
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeLLD", "PracticeLLD", "{767C7E71-AA3F-4C2F-B5A9-17F12356035E}"
@@ -33,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "SystemDesign\L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestPractices", "SystemDesign\LLD\BestPractices\BestPractices.csproj", "{59FDA368-E75A-420F-B76F-7CC9048222A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientFactory", "..\..\..\CCharp\DSA\CSharp\SystemDesign\LLD\GOF\ClientFactory\ClientFactory.csproj", "{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientFactory", "SystemDesign\LLD\GOF\ClientFactory\ClientFactory.csproj", "{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

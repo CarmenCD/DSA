@@ -7,17 +7,16 @@ using Microsoft.Win32.SafeHandles;
 
 namespace DesignPatterns.Factory.FactoryMethod
 {
-    public class VeggiePizza : Pizza
+    public class RomanianVeggiePizza : Pizza
     {
-        public VeggiePizza()
+        public RomanianVeggiePizza()
         {
-            Name = "Veggie Pizza";
+            Name = "RO Veggie Pizza";
             Dough = "Thin crust";
             Sauce = "BBQ";
             AddTopping("tomato")
                 .AddTopping("baby corn")
                 .AddTopping("onion");
-
         }
     }
 }

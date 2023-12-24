@@ -7,19 +7,18 @@ using Microsoft.Win32.SafeHandles;
 
 namespace DesignPatterns.Factory.FactoryMethod
 {
-    public class CheesePizza : Pizza
+    public class RomanianCheesePizza : Pizza
     {
-        public CheesePizza()
+        public RomanianCheesePizza()
         {
-            Name = "Cheese Pizza";
-            Dough = "Thin crust";
+            Name = "RO Cheese Pizza";
+            Dough = "Classic crust";
             Sauce = "BBQ";
             AddTopping("tomato")
                 .AddTopping("cheese")
-                .AddTopping("baby corn")
+                .AddTopping("tomato")
                 .AddTopping("onion")
-                .AddTopping("capsicum");
-
+                .AddTopping("pork");
         }
     }
 }

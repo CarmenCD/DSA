@@ -18,6 +18,12 @@ namespace DesignPatterns.Factory.SimpleFactory
                 return new CheesePizza();
             }
 
+            if (string.Equals(type, "veggie"))
+            {
+                Console.WriteLine("Veggie Pizza is created");
+                return new CheesePizza();
+            }
+
             return new Pizza();
         }
 
