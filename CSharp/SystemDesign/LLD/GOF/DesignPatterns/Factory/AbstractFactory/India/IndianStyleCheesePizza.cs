@@ -9,10 +9,17 @@ public class IndianStyleCheesePizza : Pizza
         _pizzaIngredientFactory = pizzaIngredientFactory;
         Name = "IndianStyleCheesePizza";
 
-        Dough = _pizzaIngredientFactory.CreateDough();
-        Sauce = _pizzaIngredientFactory.CreateSauce();
+        var crust = pizzaIngredientFactory.CreateDough();
+        Dough = crust.CreateDough();
 
-        AddTopping(pizzaIngredientFactory.CreateCheese());
+        var sauce = _pizzaIngredientFactory.CreateSauce();
+        Sauce = sauce.CreateSauce();
+
+        var topping = _pizzaIngredientFactory.CreateCheese();
+        AddTopping(topping.CreateCheese());
+
+        Console.WriteLine($"Cheese in IN: {topping.CreateCheese()}");
+
 
         foreach (var veggie in _pizzaIngredientFactory.CreateVeggies())
         {
@@ -23,6 +30,12 @@ public class IndianStyleCheesePizza : Pizza
         {
             AddTopping(nonVeggie);
         }
+
+        Console.WriteLine($"Pizza Name: {Name}");
+        Console.WriteLine($"Dough IN: {Dough}");
+        Console.WriteLine($"Sauce IN: {Sauce}");
+
+        Console.WriteLine($"Pizza Type IN: {topping.CreateCheese()}");
     }
 
 }

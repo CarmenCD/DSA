@@ -8,12 +8,12 @@ namespace DesignPatterns.Factory.AbstractFactory.India
 
         public IndianPizzaStore()
         {
-            _pizzaIngredientFactory = new RomanianIngredientFactory();
+            _pizzaIngredientFactory = new IndianIngredientFactory();
         }
 
         protected override Pizza CreatePizza(string type)
         {
-            Console.WriteLine("Creating your concrete pizza");
+            Console.WriteLine("Creating your concrete pizza IN");
             Pizza pizza;
 
             if (string.Equals(type, "cheese"))

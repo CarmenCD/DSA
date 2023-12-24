@@ -13,7 +13,7 @@ namespace DesignPatterns.Factory.AbstractFactory.Romania
 
         protected override Pizza CreatePizza(string type)
         {
-            Console.WriteLine("Creating your concrete pizza");
+            Console.WriteLine("Creating your concrete pizza RO");
             Pizza pizza;
 
             if (string.Equals(type, "cheese"))

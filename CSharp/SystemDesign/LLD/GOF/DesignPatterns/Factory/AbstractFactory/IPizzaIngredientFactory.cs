@@ -8,9 +8,9 @@ namespace DesignPatterns.Factory.AbstractFactory
 {
     public interface IPizzaIngredientFactory
     {
-        public string CreateDough();
-        public string CreateSauce();
-        public string CreateCheese();
+        public IDough CreateDough();
+        public ISauce CreateSauce();
+        public ICheese CreateCheese();
         public string[] CreateVeggies();
         public string[] CreateNonVeggies();
     }

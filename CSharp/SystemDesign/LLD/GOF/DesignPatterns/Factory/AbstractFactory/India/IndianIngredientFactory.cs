@@ -2,19 +2,19 @@
 
 public class IndianIngredientFactory : IPizzaIngredientFactory
 {
-    public string CreateDough()
+    public IDough CreateDough()
     {
-        return "IN Thin Crust Dough";
+        return new Thin();
     }
 
-    public string CreateSauce()
+    public ISauce CreateSauce()
     {
-        return "IN BBQ sauce";
+        return new Bbq();
     }
 
-    public string CreateCheese()
+    public ICheese CreateCheese()
     {
-        return "IN Mozzarella cheese";
+        return new BlueCheese();
     }
 
     public string[] CreateVeggies()

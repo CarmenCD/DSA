@@ -6,10 +6,10 @@
         public Pizza  OrderPizza(string type)
         {
             Pizza p = CreatePizza(type);
-            p.Prepare();
-            p.Bake();
-            p.Cut();
-            p.Box();
+            Pizza.Prepare();
+            Pizza.Bake();
+            Pizza.Cut();
+            Pizza.Box();
 
             return p;
         }

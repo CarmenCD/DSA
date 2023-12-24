@@ -3,6 +3,7 @@
 using DesignPatterns.Factory.FactoryMethod;
 using DesignPatterns.Factory.SimpleFactory;
 using PizzaStore = DesignPatterns.Factory.SimpleFactory.PizzaStore;
+using PizzaStoreA = DesignPatterns.Factory.AbstractFactory;
 
 /* initial implementation */
 Console.WriteLine("**********************************************************");
@@ -31,3 +32,13 @@ Console.WriteLine("*************************************************************
 var pizzaStoreRomanian = new RomanianPizzaStore();
 var p =pizzaStoreRomanian.OrderPizza("veggie");
 Console.WriteLine($"Pizza created: {p.Name}");
+
+Console.WriteLine($"******************************************");
+
+var pizzaStoreRomanianA = new PizzaStoreA.Romania.RomanianPizzaStore();
+var pA = pizzaStoreRomanianA.OrderPizza("veggie");
+Console.WriteLine($"Pizza created: {pA.Name}");
+
+var pizzaStoreRomanianIn = new PizzaStoreA.India.IndianPizzaStore();
+var pIn = pizzaStoreRomanianIn.OrderPizza("veggie");
+Console.WriteLine($"Pizza created: {pIn.Name}");

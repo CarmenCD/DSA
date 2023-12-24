@@ -12,20 +12,20 @@ namespace DesignPatterns.Factory.AbstractFactory
         public string? Dough { get; protected set; }
         public string? Sauce { get; protected set; }
 
-        private List<string> _toppings = new List<string>();
-        public void Prepare()
+        private readonly List<string> _toppings = new();
+        public static void Prepare()
         {
             Console.WriteLine("Prepare pizza");
         }
-        public void Bake()
+        public static void Bake()
         {
             Console.WriteLine("Bake pizza");
         }
-        public void Cut()
+        public static void Cut()
         {
             Console.WriteLine("Cut pizza");
         }
-        public void Box()
+        public static void Box()
         {
             Console.WriteLine("Box the pizza");
         }

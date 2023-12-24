@@ -2,19 +2,19 @@
 
 public class RomanianIngredientFactory : IPizzaIngredientFactory
 {
-    public string CreateDough()
+    public IDough CreateDough()
     {
-        return "RO Crust Dough";
+        return new Classic();
     }
 
-    public string CreateSauce()
+    public ISauce CreateSauce()
     {
-        return "RO Mustard sauce";
+        return new Mustard();
     }
 
-    public string CreateCheese()
+    public ICheese CreateCheese()
     {
-        return "RO Feta cheese";
+        return new MozzarellaCheese();
     }
 
     public string[] CreateVeggies()

@@ -64,8 +64,8 @@ Console.WriteLine("Rubble duck Does not implement Quack");
 // rubber2.Quack()
 rubber2.Swim();
 
-Duck d = new Second.MallardDuck();
-var wd = new Second.WoodenDuck();
+// Duck d = new Second.MallardDuck();
+// var wd = new Second.WoodenDuck();
 
 // d = wd;
 // cannot do that anyway

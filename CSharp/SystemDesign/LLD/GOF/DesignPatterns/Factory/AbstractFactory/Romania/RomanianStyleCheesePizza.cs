@@ -15,11 +15,15 @@ namespace DesignPatterns.Factory.AbstractFactory.Romania
             _pizzaIngredientFactory = pizzaIngredientFactory;
             Name = "RomanianStyleCheesePizza";
 
-            Dough = _pizzaIngredientFactory.CreateDough();
-            Sauce = _pizzaIngredientFactory.CreateSauce();
+            var crust = pizzaIngredientFactory.CreateDough();
+            Dough = crust.CreateDough();
 
-            AddTopping(pizzaIngredientFactory.CreateCheese());
+            var sauce = _pizzaIngredientFactory.CreateSauce();
+            Sauce = sauce.CreateSauce();
 
+            var topping = _pizzaIngredientFactory.CreateCheese();
+            AddTopping(topping.CreateCheese());
+           
             foreach (var veggie in _pizzaIngredientFactory.CreateVeggies())
             {
                 AddTopping(veggie);
@@ -29,6 +33,12 @@ namespace DesignPatterns.Factory.AbstractFactory.Romania
             {
                 AddTopping(nonVeggie);
             }
+
+            Console.WriteLine($"Pizza Name: {Name}");
+            Console.WriteLine($"Dough RO: {Dough}");
+            Console.WriteLine($"Sauce RO: {Sauce}");
+
+            Console.WriteLine($"Pizza Type RO: {topping.CreateCheese()}");
         }
     }
 }

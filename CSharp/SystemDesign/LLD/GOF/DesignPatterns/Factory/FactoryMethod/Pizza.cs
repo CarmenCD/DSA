@@ -12,7 +12,7 @@ namespace DesignPatterns.Factory.FactoryMethod
         public string? Dough { get; protected set; }
         public string? Sauce { get; protected set; }
 
-        private List<string> _toppings = new List<string>();
+        private readonly List<string> _toppings = new();
 
         public void Prepare()
         {
