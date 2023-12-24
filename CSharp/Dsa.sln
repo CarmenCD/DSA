@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7A7E43
 		SystemDesign\LLD\GOF\Images\DuckSimulationInitial.png = SystemDesign\LLD\GOF\Images\DuckSimulationInitial.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationSol2.png = SystemDesign\LLD\GOF\Images\DuckSimulationSol2.png
 		SystemDesign\LLD\GOF\Images\DuckSimulationStrategy.png = SystemDesign\LLD\GOF\Images\DuckSimulationStrategy.png
+		SystemDesign\LLD\GOF\Images\FactoryMethod.png = SystemDesign\LLD\GOF\Images\FactoryMethod.png
 		SystemDesign\LLD\GOF\Images\SimpleFactory.png = SystemDesign\LLD\GOF\Images\SimpleFactory.png
 	EndProjectSection
 EndProject
