@@ -14,16 +14,4 @@ namespace TicTacToe
         //public PersonalDetails PersonalDetails { get; set; }
         //public Statistic Statistic { get; set; }
     }
-
-    public class Statistic
-    {
-        public int Score { get; set; }
-        public int Rank { get; set; }
-    }
-
-    public class PersonalDetails
-    {
-        public string Name { get; set; }
-       
-    }
 }

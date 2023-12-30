@@ -20,6 +20,7 @@ namespace TicTacToe
             BoardSize = size;
             Situation = BoardSituation.Ongoing;
             GeneralBoard = new Symbol[BoardSize, BoardSize];
+            Initialize();
         }
 
         public void Initialize()
@@ -40,18 +41,10 @@ namespace TicTacToe
             {
                 for (int j = 0; j < BoardSize; j++)
                 {
-                    Console.Write(GeneralBoard[i,j] + " ");
+                    Console.Write((char)GeneralBoard[i,j] + " ");
                 }
                 Console.WriteLine();
             }
         }
-    }
-
-
-    public enum BoardSituation
-    {
-        Ongoing,
-        Finished,
-        Draw
     }
 }
