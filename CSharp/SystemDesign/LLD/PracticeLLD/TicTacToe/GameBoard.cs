@@ -115,6 +115,7 @@ namespace TicTacToe
             // horizontal check columns
             for (var j = 0; j < size; j++)
             {
+                gameOver = true;
                 if (GeneralGameBoard.GeneralBoard[x, j] != userSymbol)
                 {
                     gameOver = false;
@@ -127,10 +128,12 @@ namespace TicTacToe
                 GeneralGameBoard.Situation = BoardSituation.Finished;
                 return;
             }
-            
+
+            gameOver = true;
             // vertical check rows
             for (var i = 0; i < size; i++)
             {
+                
                 if (GeneralGameBoard.GeneralBoard[i, y] != userSymbol)
                 {
                     gameOver = false;
@@ -145,8 +148,44 @@ namespace TicTacToe
             }
 
             // diagonal check
+            if (x == y)
+            {
+                gameOver = true;
+                for (var i = 0; i < size; i++)
+                {
+                    if (GeneralGameBoard.GeneralBoard[i, i] != userSymbol)
+                    {
+                        gameOver = false;
+                        break;
+                    }
+                }
+            }
+
+            if (gameOver)
+            {
+                GeneralGameBoard.Situation = BoardSituation.Finished;
+                return;
+            }
 
             // reverse diagonal
+            if (x + y == size - 1)
+            {
+                gameOver = true;
+                for (var i = 0; i < size; i++)
+                {
+                    if (GeneralGameBoard.GeneralBoard[i, size - 1 - i] != userSymbol)
+                    {
+                        gameOver = false;
+                        break;
+                    }
+                }
+            }
+
+            if (gameOver)
+            {
+                GeneralGameBoard.Situation = BoardSituation.Finished;
+                return;
+            }
         }
     }
 }
