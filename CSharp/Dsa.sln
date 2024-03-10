@@ -36,7 +36,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "SystemDesign\L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "SystemDesign\LLD\PracticeLLD\TicTacToe\TicTacToe.csproj", "{6DACA82F-B02B-4989-B13E-1FF7D0AC9E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitWiseClient", "SystemDesign\LLD\PracticeLLD\SplitwhiseClient\SplitWiseClient.csproj", "{F39D02AA-3324-471C-9968-9E97F390F471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitWiseClient", "SystemDesign\LLD\PracticeLLD\SplitwhiseClient\SplitWiseClient.csproj", "{F39D02AA-3324-471C-9968-9E97F390F471}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLockExample", "SystemDesign\LLD\PracticeLLD\DbLockExample\DbLockExample.csproj", "{0C26F4E8-0B5F-4F5C-BEAE-5F413B8E6278}"
 EndProject
@@ -47,8 +47,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking", "SystemDesign\LLD\PracticeLLD\Booking\Booking.csproj", "{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientTickTackToe", "SystemDesign\LLD\PracticeLLD\ClientTickTackToe\ClientTickTackToe.csproj", "{F7FF6167-2C79-4870-90DD-E125E7677A0B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "SystemDesign\LLD\PracticeLLD\TicTacToe\TicTacToe.csproj", "{7546D917-AA61-4925-B5BB-43208C73E7E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,10 +102,6 @@ Global
 		{F7FF6167-2C79-4870-90DD-E125E7677A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7FF6167-2C79-4870-90DD-E125E7677A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FF6167-2C79-4870-90DD-E125E7677A0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7546D917-AA61-4925-B5BB-43208C73E7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7546D917-AA61-4925-B5BB-43208C73E7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7546D917-AA61-4925-B5BB-43208C73E7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7546D917-AA61-4925-B5BB-43208C73E7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,7 +121,6 @@ Global
 		{4C94AF8F-7DD2-40B7-8CB2-A51B4C2ED8B7} = {B93F88FC-E613-4E9A-83A6-C1D97C540468}
 		{F5305DBF-0CF3-4A45-8F01-AD8CD30E51F1} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 		{F7FF6167-2C79-4870-90DD-E125E7677A0B} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
-		{7546D917-AA61-4925-B5BB-43208C73E7E0} = {767C7E71-AA3F-4C2F-B5A9-17F12356035E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2427C0FE-6A9D-4E74-B647-C44012FA506A}
